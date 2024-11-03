@@ -1,2 +1,1 @@
-
 // Add JavaScript if needed

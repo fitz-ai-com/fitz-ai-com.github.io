@@ -1,54 +1,93 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Production with Voice Cloning</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Fitz AI - Video Production with Voice Cloning</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <header style="background-color: #1A237E; color: white; padding: 20px; text-align: center;">
-        <h1>Video Production with Voice Cloning</h1>
-        <p>Transform your content with cutting-edge AI voice technology</p>
+<body class="bg-gray-50">
+    <!-- Hero Section -->
+    <header class="relative h-screen">
+        <img src="/api/placeholder/1920/1080" alt="AI Technology Background" class="absolute inset-0 w-full h-full object-cover filter brightness-50">
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <nav class="relative z-10 container mx-auto px-6 py-8">
+            <div class="text-white text-3xl font-bold">Fitz AI</div>
+        </nav>
+        <div class="relative z-10 container mx-auto px-6 h-full flex items-center">
+            <div class="max-w-3xl">
+                <h1 class="text-5xl font-bold text-white mb-8">Video Production with Voice Cloning</h1>
+                <p class="text-xl text-white mb-8">Welcome to Fitz AI, where innovative technology meets creative video production. We specialize in pioneering the future of digital media with our cutting-edge voice cloning technology.</p>
+                <a href="#contact" class="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300">Get Started</a>
+            </div>
+        </div>
     </header>
-    <div class="intro">
-        <p>Welcome to Fitz AI, where innovative technology meets creative video production. At Fitz AI, we specialize in pioneering the future of digital media with our cutting-edge voice cloning technology.</p>
-    </div>
-    <section id="comparison" class="block">
-        <h2>See the Difference</h2>
-        <div class="content">
-            <div class="block-item">
-                <h3>Original Video</h3>
-                <p>Standard video production with original voice recording. Professional quality but limited by availability of voice talent.</p>
-            </div>
-            <div class="block-item">
-                <h3>AI-Enhanced Video</h3>
-                <p>Same high quality video with AI-cloned voice. Perfectly matched to the original while offering unlimited flexibility.</p>
-            </div>
-        </div>
-    </section>
-    <section id="features" class="block">
-        <div class="content">
-            <div class="block-item">
-                <h3>Perfect Replication</h3>
-                <p>Our AI technology ensures voice cloning that's indistinguishable from the original.</p>
-            </div>
-            <div class="block-item">
-                <h3>Cost Effective</h3>
-                <p>Reduce production costs and time while maintaining professional quality.</p>
-            </div>
-            <div class="block-item">
-                <h3>Unlimited Flexibility</h3>
-                <p>Make changes and updates without requiring new voice recordings.</p>
+
+    <!-- About Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16">Transform Your Content</h2>
+            <div class="flex flex-col md:flex-row gap-12 items-center">
+                <div class="w-full md:w-1/2">
+                    <img src="/api/placeholder/800/600" alt="AI Voice Technology" class="rounded-lg shadow-xl">
+                </div>
+                <div class="w-full md:w-1/2">
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        At Fitz AI, we specialize in pioneering the future of digital media with our cutting-edge voice cloning technology. Our solutions enable seamless integration of realistic, AI-generated voices into video content, transforming the way stories are told. Whether for marketing, educational content, or entertainment, Fitz AI provides tailored video production services that enhance viewer engagement and deliver unforgettable experiences. Trust Fitz AI to bring your vision to life with precision, efficiency, and a touch of AI magic.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
-    <footer style="background-color: #1A237E; color: white; padding: 20px; text-align: center;">
-        <h2>Ready to Transform Your Video Content?</h2>
-        <p>Get started with our cutting-edge voice cloning technology today</p>
-        <button onclick="location.href='mailto:fitz.ai.com@gmail.com'">Contact Us Now</button>
+
+    <!-- Comparison Section -->
+    <section class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16">See the Difference</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">Original Video</h3>
+                    <div class="aspect-w-16 aspect-h-9 mb-4">
+                        <img src="/api/placeholder/800/450" alt="Original Video Example" class="rounded-lg">
+                    </div>
+                    <ul class="text-gray-700">
+                        <li class="mb-2">✓ Traditional recording process</li>
+                        <li class="mb-2">✓ Limited voice options</li>
+                        <li class="mb-2">✓ Time-consuming reshoots</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">AI-Enhanced Video</h3>
+                    <div class="aspect-w-16 aspect-h-9 mb-4">
+                        <img src="/api/placeholder/800/450" alt="AI-Enhanced Video Example" class="rounded-lg">
+                    </div>
+                    <ul class="text-gray-700">
+                        <li class="mb-2">✓ Instant voice modifications</li>
+                        <li class="mb-2">✓ Multiple language options</li>
+                        <li class="mb-2">✓ Cost-effective solutions</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16">Get in Touch</h2>
+            <div class="max-w-2xl mx-auto text-center">
+                <p class="text-xl mb-8">Ready to transform your video content? Contact us to discuss your project.</p>
+                <a href="mailto:fitz.ai.com@gmail.com" class="text-2xl text-blue-600 hover:text-blue-700 font-semibold">fitz.ai.com@gmail.com</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6 text-center">
+            <p class="mb-4">© 2024 Fitz AI. All rights reserved.</p>
+            <p class="text-gray-400">Pioneering the future of video production with AI voice cloning technology</p>
+        </div>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>

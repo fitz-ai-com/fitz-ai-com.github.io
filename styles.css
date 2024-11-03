@@ -4,20 +4,30 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: #F4F4F4;
 }
 
-.container {
-    display: flex;
-    justify-content: space-around;
+header, footer {
+    background-color: #1A237E;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.intro, .block {
     margin: 20px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.video-content, .feature {
-    background: #FFFFFF;
-    border: 1px solid #DDD;
-    border-radius: 8px;
-    padding: 10px;
-    margin: 10px;
+.block-item {
+    margin: 10px 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
 }
 
 button {
@@ -29,6 +39,5 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
 }
